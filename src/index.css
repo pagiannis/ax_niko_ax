@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+.font-italianno {
+  font-family: 'Italianno', cursive;
+}
+
+.font-mono {
+  font-family: 'Libertinus Mono', monospace;
+}
