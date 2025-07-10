@@ -3,16 +3,16 @@ import "./App.css";
 import Header from "./components/Header";
 import FilterBar from "./components/FilterBar";
 import MenuSection from "./components/MenuSection";
-import { menuData } from "./data/MenuData";
+import { menuData, type MenuCategory } from "./data/MenuData";
 import LanguageDropdown from "./components/LanguageDropdown";
 
 function App() {
   const [filter, setFilter] = useState("All");
 
-  const filteredMenu =
+  const filteredMenu: MenuCategory[] =
     filter === "All"
       ? menuData
-      : menuData.filter((section) => section.category === filter);
+      : menuData.filter((section: MenuCategory) => section.category === filter);
 
   return (
     <div className="min-h-screen bg-fixed md:bg-cover bg-center bg-[url('/bg-desktop.jpeg')] p-4 md:p-20 relative">
@@ -32,6 +32,6 @@ function App() {
       </div>
     </div>
   );
-};
+}
 
 export default App;
