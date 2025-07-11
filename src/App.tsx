@@ -18,7 +18,7 @@ function App() {
         );
 
   return (
-    <div className="min-h-screen bg-fixed md:bg-cover bg-center bg-[url('/bg-mobile.jpeg')] md:bg-[url('/bg-desktop.jpeg')] p-4 md:p-20 relative">
+    <div className="min-h-screen bg-fixed bg-no-repeat bg-center bg-cover  bg-[url('/bg-mobile.jpeg')] md:bg-[url('/bg-desktop.jpeg')] p-4 md:p-20 relative">
       <div className="absolute inset-0 bg-white opacity-80"></div>
       <div className="relative z-10">
         <LanguageDropdown language={language} setLanguage={setLanguage} />
