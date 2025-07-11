@@ -18,9 +18,9 @@ function App() {
         );
 
   return (
-    <div className="min-h-screen relative overflow-hidden">
-      {/* Background image layer */}
-      <div className="fixed inset-0 -z-10">
+    <div className="min-h-screen relative bg-white">
+      {/* Background image */}
+      <div className="absolute inset-0 z-0 opacity-20">
         <picture>
           <source media="(min-width: 768px)" srcSet="/bg-desktop.jpeg" />
           <img
@@ -31,13 +31,9 @@ function App() {
         </picture>
       </div>
 
-      {/* White overlay */}
-      <div className="absolute inset-0 bg-white/80 backdrop-blur-none z-0" />
-
-      {/* Main content */}
-      <div className="relative z-10 p-4 md:p-20">
+      {/* Scrollable content */}
+      <div className="relative z-10 h-screen overflow-y-auto p-4 md:p-20">
         <LanguageDropdown language={language} setLanguage={setLanguage} />
-
         <Header />
         <FilterBar selected={filter} onSelect={setFilter} language={language} />
         {filteredMenu.map((section, idx) => (
