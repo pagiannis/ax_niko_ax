@@ -18,9 +18,24 @@ function App() {
         );
 
   return (
-    <div className="min-h-screen bg-fixed bg-no-repeat bg-center bg-cover  bg-[url('/bg-mobile.jpeg')] md:bg-[url('/bg-desktop.jpeg')] p-4 md:p-20 relative">
-      <div className="absolute inset-0 bg-white opacity-80"></div>
-      <div className="relative z-10">
+    <div className="min-h-screen relative overflow-hidden">
+      {/* Background image layer */}
+      <div className="fixed inset-0 -z-10">
+        <picture>
+          <source media="(min-width: 768px)" srcSet="/bg-desktop.jpeg" />
+          <img
+            src="/bg-mobile.jpeg"
+            alt="Background"
+            className="w-full h-full object-cover"
+          />
+        </picture>
+      </div>
+
+      {/* White overlay */}
+      <div className="absolute inset-0 bg-white/80 backdrop-blur-none z-0" />
+
+      {/* Main content */}
+      <div className="relative z-10 p-4 md:p-20">
         <LanguageDropdown language={language} setLanguage={setLanguage} />
 
         <Header />
