@@ -7,7 +7,7 @@ type MenuSectionProps = {
 };
 
 const MenuSection = ({ title, items, language }: MenuSectionProps) => (
-  <div className="my-6 font-mono">
+  <div className="my-16 font-mono ">
     <h3 className="text-xl font-bold text-sky-950 mb-3">{title}</h3>
     <ul className="space-y-3">
       {items.map((item, idx) => (
