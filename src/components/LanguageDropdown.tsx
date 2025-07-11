@@ -32,9 +32,13 @@ const LanguageDropdown = () => {
       <div className="relative">
         <button
           onClick={() => setDropdownOpen(!dropdownOpen)}
-          className="w-9 h-9 md:w-13 md:h-13 rounded-full overflow-hidden border shadow bg-white cursor-pointer hover:bg-gray-100"
+          className="w-11 h-11 p-2 md:w-13 md:h-13 rounded-full overflow-hidden border shadow bg-white cursor-pointer hover:bg-gray-100"
         >
-          {language === "gr" ? "🇬🇷" : "🇬🇧"}
+          {language === "gr" ? (
+            <span className="fi fi-gr"></span>
+          ) : (
+            <span className="fi fi-gb"></span>
+          )}
         </button>
 
         {dropdownOpen && (
@@ -44,18 +48,18 @@ const LanguageDropdown = () => {
                 setLanguage("gr");
                 setDropdownOpen(false);
               }}
-              className="flex items-center gap-2 w-full p-2 cursor-pointer hover:bg-gray-100"
+              className="flex items-center gap-2 w-full p-4 cursor-pointer hover:bg-gray-100"
             >
-              🇬🇷
+              <span className="fi fi-gr"></span>
             </button>
             <button
               onClick={() => {
                 setLanguage("en");
                 setDropdownOpen(false);
               }}
-              className="flex items-center gap-2 w-full p-2 cursor-pointer hover:bg-gray-100"
+              className="flex items-center gap-2 w-full p-4 cursor-pointer hover:bg-gray-100"
             >
-              🇬🇧
+              <span className="fi fi-gb"></span>
             </button>
           </div>
         )}
