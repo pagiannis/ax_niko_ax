@@ -15,7 +15,7 @@ const LanguageDropdown = () => {
         setDropdownOpen(false);
       }
     };
-      
+
     if (dropdownOpen) {
       document.addEventListener("mousedown", handleClickOutside);
     } else {
@@ -32,7 +32,7 @@ const LanguageDropdown = () => {
       <div className="relative">
         <button
           onClick={() => setDropdownOpen(!dropdownOpen)}
-          className="w-9 h-9 md:w-13 md:h-13 rounded-full overflow-hidden border shadow bg-white"
+          className="w-9 h-9 md:w-13 md:h-13 rounded-full overflow-hidden border shadow bg-white cursor-pointer hover:bg-gray-100"
         >
           {language === "gr" ? "🇬🇷" : "🇬🇧"}
         </button>
@@ -44,7 +44,7 @@ const LanguageDropdown = () => {
                 setLanguage("gr");
                 setDropdownOpen(false);
               }}
-              className="flex items-center gap-2 w-full p-2 hover:bg-gray-100"
+              className="flex items-center gap-2 w-full p-2 cursor-pointer hover:bg-gray-100"
             >
               🇬🇷
             </button>
@@ -53,7 +53,7 @@ const LanguageDropdown = () => {
                 setLanguage("en");
                 setDropdownOpen(false);
               }}
-              className="flex items-center gap-2 w-full p-2 hover:bg-gray-100"
+              className="flex items-center gap-2 w-full p-2 cursor-pointer hover:bg-gray-100"
             >
               🇬🇧
             </button>
