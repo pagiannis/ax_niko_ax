@@ -4,7 +4,7 @@ type FilterBarProps = {
 };
 
 const FilterBar = ({ selected, onSelect }: FilterBarProps) => {
-  const categories = ["All", "Fish", "Salads", "Starters", "Drinks"];
+  const categories = ["All", "Salads", "Starters", "Fish", "Drinks"];
 
   return (
     <div className="flex justify-center flex-wrap gap-2 my-4 font-mono">

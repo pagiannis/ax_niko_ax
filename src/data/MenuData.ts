@@ -11,21 +11,6 @@ export type MenuCategory = {
 
 export const menuData: MenuCategory[] = [
   {
-    category: "Fish",
-    items: [
-      {
-        name: "Grilled Sea Bream",
-        price: "€14",
-        description: "Freshly caught, with lemon & herbs",
-      },
-      {
-        name: "Fried Calamari",
-        price: "€10",
-        description: "Golden and crispy, served with lemon",
-      },
-    ],
-  },
-  {
     category: "Salads",
     items: [
       {
@@ -50,6 +35,22 @@ export const menuData: MenuCategory[] = [
       },
     ],
   },
+  {
+    category: "Fish",
+    items: [
+      {
+        name: "Grilled Sea Bream",
+        price: "€14",
+        description: "Freshly caught, with lemon & herbs",
+      },
+      {
+        name: "Fried Calamari",
+        price: "€10",
+        description: "Golden and crispy, served with lemon",
+      },
+    ],
+  },
+  
   {
     category: "Drinks",
     items: [
