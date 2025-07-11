@@ -1,17 +1,40 @@
-import { useState } from "react";
+import { useState, useRef, useEffect } from "react";
 
 const LanguageDropdown = () => {
   const [language, setLanguage] = useState<"en" | "gr">("gr");
   const [dropdownOpen, setDropdownOpen] = useState(false);
+  const dropdownRef = useRef<HTMLDivElement>(null);
+
+  // Close dropdown when clicking outside
+  useEffect(() => {
+    const handleClickOutside = (event: MouseEvent) => {
+      if (
+        dropdownRef.current &&
+        !dropdownRef.current.contains(event.target as Node)
+      ) {
+        setDropdownOpen(false);
+      }
+    };
+      
+    if (dropdownOpen) {
+      document.addEventListener("mousedown", handleClickOutside);
+    } else {
+      document.removeEventListener("mousedown", handleClickOutside);
+    }
+
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, [dropdownOpen]);
 
   return (
-    <div className="absolute top-2 right-4">
+    <div ref={dropdownRef} className="absolute top-2 right-3">
       <div className="relative">
         <button
           onClick={() => setDropdownOpen(!dropdownOpen)}
-          className="w-9 h-9 rounded-full overflow-hidden border shadow bg-white"
+          className="w-9 h-9 md:w-13 md:h-13 rounded-full overflow-hidden border shadow bg-white"
         >
-          {language === "en" ? "🇬🇷" : "🇬🇧"}
+          {language === "gr" ? "🇬🇷" : "🇬🇧"}
         </button>
 
         {dropdownOpen && (
