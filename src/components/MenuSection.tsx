@@ -3,9 +3,10 @@ import type { MenuItem } from "../data/MenuData";
 type MenuSectionProps = {
   title: string;
   items: MenuItem[];
+  language: "en" | "gr";
 };
 
-const MenuSection = ({ title, items }: MenuSectionProps) => (
+const MenuSection = ({ title, items, language }: MenuSectionProps) => (
   <div className="my-6 font-mono">
     <h3 className="text-xl font-bold text-sky-950 mb-3">{title}</h3>
     <ul className="space-y-3">
@@ -15,9 +16,9 @@ const MenuSection = ({ title, items }: MenuSectionProps) => (
           className="flex justify-between items-start border-b pb-2"
         >
           <div>
-            <p className="font-semibold">{item.name}</p>
+            <p className="font-semibold">{item.name[language]}</p>
             {item.description && (
-              <p className="text-sm text-gray-600">{item.description}</p>
+              <p className="text-sm text-gray-600">{item.description[language]}</p>
             )}
           </div>
           <span className="text-sky-950 font-bold">{item.price}</span>

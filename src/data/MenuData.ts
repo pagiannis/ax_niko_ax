@@ -1,73 +1,82 @@
 export type MenuItem = {
-  name: string;
+  name: {
+    en: string;
+    gr: string;
+  };
   price: string;
-  description?: string;
+  description?: {
+    en: string;
+    gr: string;
+  };
 };
 
 export type MenuCategory = {
-  category: string;
+  category: {
+    en: string;
+    gr: string;
+  };
   items: MenuItem[];
 };
 
 export const menuData: MenuCategory[] = [
   {
-    category: "Salads",
+    category: { en:"Salads", gr:"Σαλάτες" },
     items: [
       {
-        name: "Greek Salad",
+        name: {en: "Greek Salad", gr: "Χωριάτικη Σαλάτα"},
         price: "€6",
-        description: "Tomato, cucumber, feta, onion, olive oil",
+        description: {en: "Tomato, cucumber, feta, onion, olive oil", gr: "Ντομάτα, αγγούρι, φέτα, κρεμμύδι, ελαιόλαδο"},
       },
     ],
   },
   {
-    category: "Starters",
+    category: { en: "Starters", gr: "Ορεκτικά" },
     items: [
       {
-        name: "Saganaki Cheese",
+        name: {en: "Saganaki Cheese", gr: "Σαγανάκι Κεφαλοτύρι"},
         price: "€7",
-        description: "Greek cheese fried to perfection",
+        description: {en:"Greek cheese fried", gr:"Ελληνικό τυρί τηγανητό"},
       },
       {
-        name: "Fried Zucchini",
+        name: {en: "Fried Zucchini", gr: "Τηγανητά Κολοκυθάκια"},
         price: "€7",
-        description: "Crispy zucchini slices with tzatziki",
+        description: {en: "Crispy zucchini slices with tzatziki", gr: "Τραγανά κολοκυθάκια με τζατζίκι"},
       },
     ],
   },
   {
-    category: "Fish",
+    category: { en: "Fish", gr: "Ψάρια" },
     items: [
       {
-        name: "Grilled Sea Bream",
+        name: { en: "Grilled Sea Bream", gr: "Γαρίδα Σαγανάκι" },
         price: "€14",
-        description: "Freshly caught, with lemon & herbs",
+        description: {en: "Sea bream with lemon", gr: "Γαρίδα σαγανάκι με λεμόνι."},
       },
       {
-        name: "Fried Calamari",
+        name: { en: "Fried Calamari", gr: "Τηγανητά Καλαμάρια" },
         price: "€10",
-        description: "Golden and crispy, served with lemon",
+        description: { en: "Golden and crispy, served with lemon", gr: "Τραγανά, σερβιρισμένα με λεμόνι" },
       },
     ],
   },
   
   {
-    category: "Drinks",
+    category: { en: "Drinks", gr: "Ποτά" },
     items: [
       {
-        name: "Ouzo",
+        name: {en: "Ouzo" , gr: "Ούζο"},
         price: "€4",
-        description: "Traditional Greek anise aperitif",
+        description: {en: "Traditional Greek anise aperitif", gr: "Παραδοσιακό ελληνικό ούζο με γλυκάνισο"},
       },
       {
-        name: "Tsipouro",
+        name: {en: "Tsipouro", gr: "Τσίπουρο"},
         price: "€4",
-        description: "Strong spirit from grape pomace",
+        description: {en: "Strong spirit from grape pomace", gr: ""},
       },
       {
-        name: "Alpha Beer",
+        name: {en: "Alpha Beer", gr: "Μπύρα Άλφα"},
         price: "€3",
-        description: "Popular Greek lager",
+        description: {en: "Popular Greek lager", gr:""},
       }
     ],
   },

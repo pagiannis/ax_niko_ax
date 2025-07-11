@@ -1,7 +1,13 @@
 import { useState, useRef, useEffect } from "react";
 
-const LanguageDropdown = () => {
-  const [language, setLanguage] = useState<"en" | "gr">("gr");
+type Language = "en" | "gr";
+
+type Props = {
+  language: Language;
+  setLanguage: (lang: Language) => void;
+};
+
+const LanguageDropdown = ({ language, setLanguage }: Props) => {
   const [dropdownOpen, setDropdownOpen] = useState(false);
   const dropdownRef = useRef<HTMLDivElement>(null);
 
