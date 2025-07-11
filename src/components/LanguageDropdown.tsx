@@ -34,7 +34,10 @@ const LanguageDropdown = ({ language, setLanguage }: Props) => {
   }, [dropdownOpen]);
 
   return (
-    <div ref={dropdownRef} className="absolute top-5 right-5 md:top-25 md:right-25">
+    <div
+      ref={dropdownRef}
+      className="absolute top-15 right-5 md:top-25 md:right-25"
+    >
       <div className="relative">
         <button
           onClick={() => setDropdownOpen(!dropdownOpen)}

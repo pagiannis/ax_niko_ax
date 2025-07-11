@@ -32,7 +32,7 @@ function App() {
       </div>
 
       {/* Scrollable content */}
-      <div className="relative z-10 h-screen overflow-y-auto p-4 md:p-20">
+      <div className="relative z-10 h-screen overflow-y-auto px-4 py-16 md:p-20">
         <LanguageDropdown language={language} setLanguage={setLanguage} />
         <Header />
         <FilterBar selected={filter} onSelect={setFilter} language={language} />
