@@ -16,9 +16,9 @@ const MenuSection = ({ title, items, language }: MenuSectionProps) => (
           className="flex justify-between items-start border-b pb-2"
         >
           <div>
-            <p className="font-semibold">{item.name[language]}</p>
+            <p className="font-bold">{item.name[language]}</p>
             {item.description && (
-              <p className="text-sm text-gray-600">
+              <p className="text-sm text-gray-600 font-bold">
                 {item.description[language]}
               </p>
             )}
