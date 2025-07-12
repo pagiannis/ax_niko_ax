@@ -2,7 +2,7 @@
 
 A bilingual (Greek/English) mobile-friendly digital menu built for a traditional fish tavern in Peraia, Greece. Customers scan a QR code to instantly view the live menu on their phones.
 
-![Preview](./public/app-preview.png)
+<img src="./public/app-preview.png" alt="Menu preview" width="450" />
 
 ---
 
