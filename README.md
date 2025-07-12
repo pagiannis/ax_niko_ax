@@ -7,7 +7,7 @@ A bilingual (Greek/English) mobile-friendly digital menu built for a traditional
 <table>
   <tr>
     <td>
-      <img src="./public/app-preview-laptop.png" alt="Desktop View" width="300" />
+      <img src="./public/app-preview-laptop.png" alt="Desktop View" width="600" />
     </td>
     <td>
       <img src="./public/app-preview-phone.png" alt="Mobile View" width="200" />
