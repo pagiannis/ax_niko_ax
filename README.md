@@ -48,7 +48,7 @@ cd ax_niko_ax
 npm install
 ```
 
-3. **Run the app\***:
+3. **Run the app***:
 
 ```bash
 npm run dev
