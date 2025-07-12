@@ -36,7 +36,26 @@ A simple (Greek/English) mobile-friendly digital menu built for a traditional ta
 ## Quick Start
 
 1. **Clone the project**:
+
    ```bash
    git clone https://github.com/your-username/fish-tavern-menu.git
    cd fish-tavern-menu
    ```
+
+2. **Install dependencies**:
+
+```bash
+npm install
+```
+
+3. **Run the app\***:
+
+```bash
+npm run dev
+```
+
+---
+
+### Author
+
+Made by Papadopoulos Ioannis
