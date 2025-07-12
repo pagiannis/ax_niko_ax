@@ -37,10 +37,10 @@ A simple (Greek/English) mobile-friendly digital menu built for a traditional ta
 
 1. **Clone the project**:
 
-   ```bash
-   git clone https://github.com/your-username/fish-tavern-menu.git
-   cd fish-tavern-menu
-   ```
+```bash
+git clone https://github.com/pagiannis/ax_niko_ax.git
+cd ax_niko_ax
+```
 
 2. **Install dependencies**:
 
@@ -48,7 +48,7 @@ A simple (Greek/English) mobile-friendly digital menu built for a traditional ta
 npm install
 ```
 
-3. **Run the app***:
+3. **Run the app\***:
 
 ```bash
 npm run dev
@@ -59,3 +59,5 @@ npm run dev
 ### Author
 
 Made by Papadopoulos Ioannis
+
+---
