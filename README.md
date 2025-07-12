@@ -58,6 +58,6 @@ npm run dev
 
 ### Author
 
-Made by Papadopoulos Ioannis
+Made by Papadopoulos Giannis
 
 ---
