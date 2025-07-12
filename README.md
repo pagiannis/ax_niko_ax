@@ -48,7 +48,7 @@ A simple (Greek/English) mobile-friendly digital menu built for a traditional ta
 npm install
 ```
 
-3. **Run the app\***:
+3. **Run the app***:
 
 ```bash
 npm run dev
