@@ -19,7 +19,7 @@ const FilterBar = ({ selected, onSelect, language }: FilterBarProps) => {
       {categories.map((cat) => (
         <button
           key={cat.en}
-          className={`px-1 min-[360px]:px-4 py-2 rounded-3xl border cursor-pointer ${
+          className={`px-2 min-[360px]:px-4 py-2 rounded-3xl border cursor-pointer ${
             selected === cat.en
               ? "bg-sky-950 text-white"
               : "bg-white text-sky-950 border-sky-950"
