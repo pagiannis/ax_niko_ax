@@ -44,6 +44,9 @@ function App() {
             language={language}
           />
         ))}
+        <div className="text-center font-noto-serif font-bold">
+          {language == "gr" ? "* Καταψυγμένα" : "* Frozen"}
+        </div>
       </div>
     </div>
   );
