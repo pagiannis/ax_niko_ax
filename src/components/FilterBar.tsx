@@ -7,21 +7,11 @@ type FilterBarProps = {
 const FilterBar = ({ selected, onSelect, language }: FilterBarProps) => {
   const categories = [
     { en: "All", gr: "Όλα" },
-    { en: "Salads with olive oil", gr: "Σαλάτες με ελαιόλαδο" },
-    { en: "Hot Appetizers", gr: "Ζεστά Ορεκτικά" },
+    { en: "Salads", gr: "Σαλάτες" },
     { en: "Appetizers", gr: "Ορεκτικά" },
-    { en: "Salty Appetizers", gr: "Αλμυρά Ορεκτικά" },
-    { en: "Cheeses", gr: "Τυριά" },
-    { en: "Sea food portion", gr: "Θαλλασινά μερίδες" },
-    { en: "Fish per kilo", gr: "Ψάρια με το κιλό" },
+    { en: "Sea food / Fish", gr: "Θαλλασινά / Ψάρια" },
     { en: "Meat", gr: "Κρεατικά" },
-    { en: "Refreshments", gr: "Αναψυκτικά" },
-    { en: "Beers", gr: "Μπύρες" },
-    { en: "Retsines", gr: "Ρετσίνες" },
-    { en: "Barrel wine", gr: "Βαρελίσια κρασιά" },
-    { en: "Wine", gr: "Κρασιά" },
-    { en: "Ouzo", gr: "Ούζο" },
-    { en: "Tsipouro", gr: "Τσίπουρο" },
+    { en: "Drinks", gr: "Ποτά" },
   ];
 
   return (
