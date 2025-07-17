@@ -15,11 +15,11 @@ const FilterBar = ({ selected, onSelect, language }: FilterBarProps) => {
   ];
 
   return (
-    <div className="flex justify-center flex-wrap gap-2 my-4 font-noto-serif text-sm md:text-base">
+    <div className="flex justify-center flex-wrap gap-1 min-[400px]:gap-2 my-4 font-noto-serif text-sm md:text-base">
       {categories.map((cat) => (
         <button
           key={cat.en}
-          className={`px-4 py-2 rounded-3xl border cursor-pointer ${
+          className={`px-1 min-[360px]:px-4 py-2 rounded-3xl border cursor-pointer ${
             selected === cat.en
               ? "bg-sky-950 text-white"
               : "bg-white text-sky-950 border-sky-950"
