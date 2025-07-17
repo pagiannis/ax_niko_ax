@@ -15,12 +15,17 @@ export type MenuCategory = {
     en: string;
     gr: string;
   };
+  subcategory: {
+    en: string;
+    gr: string;
+  };
   items: MenuItem[];
 };
 
 export const menuData: MenuCategory[] = [
   {
     category: { en:"Salads with olive oil", gr:"Σαλάτες με ελαιόλαδο" },
+    subcategory: { en: "Salads", gr: "Σαλάτες" },
     items: [
       {
         name: {en: "Tomato and cucmber salad", gr: "Αγγουροντομάτα"},
@@ -84,6 +89,7 @@ export const menuData: MenuCategory[] = [
   },
   {
     category: { en: "Hot Appetizers", gr: "Ζεστά Ορεκτικά" },
+    subcategory: { en: "Appetizers", gr: "Ορεκτικά" },
     items: [
       {
         name: {en: 'Special in the pot "Nikos"', gr: "Πήλινο <<Νίκος>>"},
@@ -139,6 +145,7 @@ export const menuData: MenuCategory[] = [
   },
   {
     category: { en: "Appetizers", gr: "Ορεκτικά" },
+    subcategory: { en: "Appetizers", gr: "Ορεκτικά" },
     items: [
       {
         name: {en: "Bread per person", gr: "Ψωμί ανά άτομο"},
@@ -168,6 +175,7 @@ export const menuData: MenuCategory[] = [
   },
   {
     category: { en: "Salty Appetizers", gr: "Αλμυρά Ορεκτικά" },
+    subcategory: { en: "Appetizers", gr: "Ορεκτικά" },
     items: [
       {
         name: { en: "Hors d' oeuveres", gr: "Ορντέρβ αλμυρών"},
@@ -193,6 +201,7 @@ export const menuData: MenuCategory[] = [
   },
   {
     category: { en: "Cheeses", gr: "Τυριά" },
+    subcategory: { en: "Appetizers", gr: "Ορεκτικά" },
     items: [
       {
         name: { en: "Feta cheese", gr: "Φέτα" },
@@ -231,6 +240,7 @@ export const menuData: MenuCategory[] = [
   },
   {
     category: { en: "Sea food portion", gr: "Θαλλασινά μερίδες" },
+    subcategory: { en: "Sea food / Fish", gr: "Θαλλασινά / Ψάρια" },
     items: [
       {
         name: { en: "Grilled squids*", gr: "Καλαμαράκια ψητά*" },
@@ -309,6 +319,7 @@ export const menuData: MenuCategory[] = [
   },
   {
     category: { en: "Fish per kilo", gr: "Ψάρια με το κιλό" },
+    subcategory: { en: "Sea food / Fish", gr: "Θαλλασινά / Ψάρια" },
     items: [
       {
         name: { en: "Fish of the day", gr: "Ψάρια ημέρας" },
@@ -334,6 +345,7 @@ export const menuData: MenuCategory[] = [
   },
   {
     category: { en: "Meat", gr: "Κρεατικά" },
+    subcategory: { en: "Meat", gr: "Κρεατικά" },
     items: [
       {
         name: { en: "Skewers pork 3 pieces", gr: "Σουβλάκια χοιρινά 3 τεμ." },
@@ -393,6 +405,7 @@ export const menuData: MenuCategory[] = [
   },
   {
     category: { en: "Refreshments", gr: "Αναψυκτικά" },
+    subcategory: { en: "Drinks", gr: "Ποτά" },
     items: [
       {
         name: { en: "Coca - Cola 250ml" , gr: "Κόκα - Κόλα 250ml"},
@@ -418,6 +431,7 @@ export const menuData: MenuCategory[] = [
   },
   {
     category: { en: "Beers", gr: "Μπύρες" },
+    subcategory: { en: "Drinks", gr: "Ποτά" },
     items: [
       {
         name: { en: "Amstel 500ml" , gr: "Άμστελ 500ml"},
@@ -443,6 +457,7 @@ export const menuData: MenuCategory[] = [
   },
   {
     category: { en: "Retsines", gr: "Ρετσίνες" },
+    subcategory: { en: "Drinks", gr: "Ποτά" },
     items: [
       {
         name: { en: "Malamatina 500ml" , gr: "Μαλαματίνα 500ml"},
@@ -460,6 +475,7 @@ export const menuData: MenuCategory[] = [
   },
   {
     category: { en: "Barrel wine", gr: "Βαρελίσια κρασιά" },
+    subcategory: { en: "Drinks", gr: "Ποτά" },
     items: [
       {
         name: { en: "Demi sweet red wine 500ml" , gr: "Ημίγλυκο κόκκινο 500ml"},
@@ -477,6 +493,7 @@ export const menuData: MenuCategory[] = [
   },
   {
     category: { en: "Wine", gr: "Κρασιά" },
+    subcategory: { en: "Drinks", gr: "Ποτά" },
     items: [
       {
         name: { en: "Moschofilero 750ml" , gr: "Μοσχοφίλερο 750ml"},
@@ -490,6 +507,7 @@ export const menuData: MenuCategory[] = [
   },
   {
     category: { en: "Ouzo", gr: "Ούζο" },
+    subcategory: { en: "Drinks", gr: "Ποτά" },
     items: [
       {
         name: { en: "Varvagiannis 200ml" , gr: "Βαρβαγιάννης 200ml"},
@@ -511,6 +529,7 @@ export const menuData: MenuCategory[] = [
   },
   {
     category: { en: "Tsipouro", gr: "Τσίπουρο" },
+    subcategory: { en: "Drinks", gr: "Ποτά" },
     items: [
       {
         name: { en: "Babatzim with anise 200ml" , gr: "Μπαμπατζίμ με γλυκάνισο 200ml"},

@@ -14,7 +14,7 @@ function App() {
     filter === "All"
       ? menuData
       : menuData.filter(
-          (section: MenuCategory) => section.category.en === filter
+          (section: MenuCategory) => section.subcategory.en === filter
         );
 
   return (
