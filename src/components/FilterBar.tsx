@@ -15,7 +15,7 @@ const FilterBar = ({ selected, onSelect, language }: FilterBarProps) => {
   ];
 
   return (
-    <div className="flex justify-center flex-wrap gap-2 my-4 font-noto-serif">
+    <div className="flex justify-center flex-wrap gap-2 my-4 font-noto-serif text-sm md:text-base">
       {categories.map((cat) => (
         <button
           key={cat.en}
