@@ -5,10 +5,13 @@ import FilterBar from "./components/FilterBar";
 import MenuSection from "./components/MenuSection";
 import { menuData, type MenuCategory } from "./data/MenuData";
 import LanguageDropdown from "./components/LanguageDropdown";
+import FrozenFooter from "./components/FrozenFooter";
 
 function App() {
   const [filter, setFilter] = useState("All");
-  const [language, setLanguage] = useState<"en" | "gr" | "de" | "sr" | "bg" | "ro">("gr");
+  const [language, setLanguage] = useState<
+    "en" | "gr" | "de" | "sr" | "bg" | "ro"
+  >("gr");
 
   const filteredMenu: MenuCategory[] =
     filter === "All"
@@ -44,9 +47,7 @@ function App() {
             language={language}
           />
         ))}
-        <div className="text-center font-noto-serif font-bold">
-          {language == "gr" ? "* Καταψυγμένα" : "* Frozen"}
-        </div>
+        <FrozenFooter language={language} />
       </div>
     </div>
   );
