@@ -13,7 +13,7 @@ const FrozenFooter = ({ language }: Props) => {
   };
 
   return (
-    <div className="text-center font-noto-serif font-bold">
+    <div className="text-center font-serif font-bold">
       {frozenLabels[language] || frozenLabels.en}
     </div>
   );
