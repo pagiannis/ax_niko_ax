@@ -13,10 +13,10 @@ const MenuSection = ({ title, items, language }: MenuSectionProps) => (
       {items.map((item, idx) => (
         <li
           key={idx}
-          className="flex justify-between items-start border-b pb-2"
+          className="flex justify-between items-start border-b border-gray-400 pb-1 last:border-0"
         >
           <div>
-            <p className="text-lg">{item.name[language]}</p>
+            <p className="text-base">{item.name[language]}</p>
             {item.description && (
               <p className="text-base text-gray-600">
                 {item.description[language]}
