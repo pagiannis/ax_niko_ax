@@ -58,7 +58,7 @@ const LanguageDropdown = ({ language, setLanguage }: Props) => {
         </button>
 
         {dropdownOpen && (
-          <div className="absolute right-0 mt-2 bg-gray-100 border shadow rounded w-25 z-50">
+          <div className="absolute right-0 mt-2 bg-gray-100 border shadow rounded-xl w-25 z-50">
             {languages.map(({ code, flag }) => (
               <button
                 key={code}
@@ -66,7 +66,7 @@ const LanguageDropdown = ({ language, setLanguage }: Props) => {
                   setLanguage(code);
                   setDropdownOpen(false);
                 }}
-                className=" items-center gap-2 w-full p-2 cursor-pointer hover:bg-gray-200"
+                className=" items-center gap-2 w-full p-3 cursor-pointer hover:bg-gray-200"
               >
                 <span className={`fi fi-${flag}`}></span>
               </button>
