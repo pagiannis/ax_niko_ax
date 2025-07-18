@@ -1,6 +1,6 @@
 import { useState, useRef, useEffect } from "react";
 
-type Language = "en" | "gr";
+type Language = "en" | "gr" | "de" | "sr" | "bg" | "ro";
 
 type Props = {
   language: Language;
@@ -33,6 +33,17 @@ const LanguageDropdown = ({ language, setLanguage }: Props) => {
     };
   }, [dropdownOpen]);
 
+  const languages: { code: Language; flag: string; label: string }[] = [
+    { code: "en", flag: "gb", label: "English" },
+    { code: "gr", flag: "gr", label: "Ελληνικά" },
+    { code: "de", flag: "de", label: "Deutsch" },
+    { code: "ro", flag: "ro", label: "Română" },
+    { code: "bg", flag: "bg", label: "Български" },
+    { code: "sr", flag: "rs", label: "Српски" },
+  ];
+
+  const selected = languages.find((l) => l.code === language);
+
   return (
     <div
       ref={dropdownRef}
@@ -43,33 +54,23 @@ const LanguageDropdown = ({ language, setLanguage }: Props) => {
           onClick={() => setDropdownOpen(!dropdownOpen)}
           className="w-11 h-11 p-2 md:w-13 md:h-13 rounded-full overflow-hidden border shadow bg-white cursor-pointer hover:bg-gray-100"
         >
-          {language === "gr" ? (
-            <span className="fi fi-gr"></span>
-          ) : (
-            <span className="fi fi-gb"></span>
-          )}
+          <span className={`fi fi-${selected?.flag}`}></span>
         </button>
 
         {dropdownOpen && (
-          <div className="absolute right-0 mt-2 bg-white border shadow rounded w-24 z-50">
-            <button
-              onClick={() => {
-                setLanguage("gr");
-                setDropdownOpen(false);
-              }}
-              className="flex items-center gap-2 w-full p-4 cursor-pointer hover:bg-gray-100"
-            >
-              <span className="fi fi-gr"></span>
-            </button>
-            <button
-              onClick={() => {
-                setLanguage("en");
-                setDropdownOpen(false);
-              }}
-              className="flex items-center gap-2 w-full p-4 cursor-pointer hover:bg-gray-100"
-            >
-              <span className="fi fi-gb"></span>
-            </button>
+          <div className="absolute right-0 mt-2 bg-white border shadow rounded w-25 z-50">
+            {languages.map(({ code, flag }) => (
+              <button
+                key={code}
+                onClick={() => {
+                  setLanguage(code);
+                  setDropdownOpen(false);
+                }}
+                className=" items-center gap-2 w-full p-2 cursor-pointer hover:bg-gray-100"
+              >
+                <span className={`fi fi-${flag}`}></span>
+              </button>
+            ))}
           </div>
         )}
       </div>

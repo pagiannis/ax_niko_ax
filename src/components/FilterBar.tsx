@@ -1,17 +1,59 @@
 type FilterBarProps = {
   selected: string;
   onSelect: (category: string) => void;
-  language: "en" | "gr";
+  language: "en" | "gr" | "de" | "sr" | "bg" | "ro";
 };
 
 const FilterBar = ({ selected, onSelect, language }: FilterBarProps) => {
   const categories = [
-    { en: "All", gr: "Όλα" },
-    { en: "Salads", gr: "Σαλάτες" },
-    { en: "Appetizers", gr: "Ορεκτικά" },
-    { en: "Sea food / Fish", gr: "Θαλλασινά / Ψάρια" },
-    { en: "Meat", gr: "Κρεατικά" },
-    { en: "Drinks", gr: "Ποτά" },
+    {
+      en: "All",
+      gr: "Όλα",
+      de: "Alle",
+      ro: "Toate",
+      bg: "Всички",
+      sr: "Све",
+    },
+    {
+      en: "Salads",
+      gr: "Σαλάτες",
+      de: "Salate",
+      ro: "Salate",
+      bg: "Салати",
+      sr: "Салате",
+    },
+    {
+      en: "Appetizers",
+      gr: "Ορεκτικά",
+      de: "Vorspeisen",
+      ro: "Aperitive",
+      bg: "Предястия",
+      sr: "Предјела",
+    },
+    {
+      en: "Sea food / Fish",
+      gr: "Θαλασσινά / Ψάρια",
+      de: "Meeresfrüchte / Fisch",
+      ro: "Fructe de mare / Pește",
+      bg: "Морска храна / Риба",
+      sr: "Морски плодови / Риба",
+    },
+    {
+      en: "Meat",
+      gr: "Κρεατικά",
+      de: "Fleisch",
+      ro: "Carne",
+      bg: "Месо",
+      sr: "Месо",
+    },
+    {
+      en: "Drinks",
+      gr: "Ποτά",
+      de: "Getränke",
+      ro: "Băuturi",
+      bg: "Напитки",
+      sr: "Пића",
+    },
   ];
 
   return (

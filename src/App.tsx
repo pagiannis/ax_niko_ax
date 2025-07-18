@@ -8,7 +8,7 @@ import LanguageDropdown from "./components/LanguageDropdown";
 
 function App() {
   const [filter, setFilter] = useState("All");
-  const [language, setLanguage] = useState<"en" | "gr">("gr");
+  const [language, setLanguage] = useState<"en" | "gr" | "de" | "sr" | "bg" | "ro">("gr");
 
   const filteredMenu: MenuCategory[] =
     filter === "All"

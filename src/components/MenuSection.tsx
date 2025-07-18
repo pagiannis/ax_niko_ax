@@ -3,7 +3,7 @@ import type { MenuItem } from "../data/MenuData";
 type MenuSectionProps = {
   title: string;
   items: MenuItem[];
-  language: "en" | "gr";
+  language: "en" | "gr" | "de" | "sr" | "bg" | "ro";
 };
 
 const MenuSection = ({ title, items, language }: MenuSectionProps) => (
