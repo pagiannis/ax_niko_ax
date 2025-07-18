@@ -52,13 +52,13 @@ const LanguageDropdown = ({ language, setLanguage }: Props) => {
       <div className="relative">
         <button
           onClick={() => setDropdownOpen(!dropdownOpen)}
-          className="w-11 h-11 p-2 md:w-13 md:h-13 rounded-full overflow-hidden border shadow bg-white cursor-pointer hover:bg-gray-100"
-        >
+          className="w-11 h-11 p-2 md:w-13 md:h-13 rounded-full overflow-hidden border shadow bg-white cursor-pointer hover:bg-gray-200"
+        > 
           <span className={`fi fi-${selected?.flag}`}></span>
         </button>
 
         {dropdownOpen && (
-          <div className="absolute right-0 mt-2 bg-white border shadow rounded w-25 z-50">
+          <div className="absolute right-0 mt-2 bg-gray-100 border shadow rounded w-25 z-50">
             {languages.map(({ code, flag }) => (
               <button
                 key={code}
@@ -66,7 +66,7 @@ const LanguageDropdown = ({ language, setLanguage }: Props) => {
                   setLanguage(code);
                   setDropdownOpen(false);
                 }}
-                className=" items-center gap-2 w-full p-2 cursor-pointer hover:bg-gray-100"
+                className=" items-center gap-2 w-full p-2 cursor-pointer hover:bg-gray-200"
               >
                 <span className={`fi fi-${flag}`}></span>
               </button>
