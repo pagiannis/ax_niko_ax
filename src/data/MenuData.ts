@@ -948,10 +948,10 @@ export const menuData: MenuCategory[] = [
         name: {
           en: "Bass fish 300gr",
           gr: "Λαβράκια 300γραμ.",
-          de: "Barsch 300g",
-          sr: "Бас 300г",
-          bg: "Бас 300г",
-          ro: "Biban 300g"
+          de: "Wolfsbarsch 300g",
+          sr: "Бранцин 300г",
+          bg: "лаврак 300г",
+          ro: "Biban de mare 300g"
         },
         price: "€15,00"
       },
@@ -959,21 +959,21 @@ export const menuData: MenuCategory[] = [
         name: {
           en: "Red Mullet 300gr",
           gr: "Κουτσομούρες 300γραμ.",
-          de: "Roter Meerbarbe 300g",
-          sr: "Црвена морска шкарпа 300г",
-          bg: "Червена морска скумрия 300г",
-          ro: "Salmonete 300g"
+          de: "Rote Meerbarbe 300g",
+          sr: "Трља 300г",
+          bg: "Червен Кефал 300г",
+          ro: "Pește mic roșu prăjit 300g"
         },
         price: "€15,00"
       },
       {
         name: {
-          en: "Cod fish 300gr",
+          en: "European hake 300gr",
           gr: "Μπακαλιαράκια 300γραμ.",
-          de: "Kabeljau 300g",
-          sr: "Треска 300г",
-          bg: "Треска 300г",
-          ro: "Cod 300g"
+          de: "Seehecht 300g",
+          sr: "Ослић 300г",
+          bg: "хек 300г",
+          ro: "Merluciu 300g"
         },
         price: "€15,00"
       }
