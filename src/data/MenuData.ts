@@ -1428,12 +1428,12 @@ export const menuData: MenuCategory[] = [
     items: [
       {
         name: {
-          en: "Demi sweet red wine 500ml",
+          en: "Semi-dry red wine 500ml",
           gr: "Ημίγλυκο κόκκινο 500ml",
-          de: "Halbsüßer Rotwein 500ml",
-          sr: "Полуслатко црвено вино 500ml",
-          bg: "Полусладко червено вино 500ml",
-          ro: "Vin roșu demi-dulce 500ml"
+          de: "Halbtrockener Rotwein 500ml",
+          sr: "Црвено полуслатко вино 500ml",
+          bg: "Червено полусухо вино 500ml",
+          ro: "Vin roșu demisec 500ml"
         },
         price: "€5,00"
       },
@@ -1656,45 +1656,45 @@ export const menuData: MenuCategory[] = [
       },
       {
         name: {
-          en: "Tsipouro homemade with anise 250ml",
+          en: "Tsipouro (bulk) with anise 250ml",
           gr: "Τσίπουρο χύμα με γλυκάνισο 250ml",
-          de: "Hausgemachtes Tsipouro mit Anis 250ml",
-          sr: "Ципуро домаћи са анисом 250ml",
-          bg: "Домашно ципуро с анасон 250ml",
-          ro: "Țipouro de casă cu anason 250ml"
+          de: "Lose Tsipouro mit Anis 250ml",
+          sr: "Ципуро сипана са анисом 250ml",
+          bg: "Разлято ракия с анасон 250ml",
+          ro: "Țipouro vrac cu anason 250ml"
         },
         price: "€7,00"
       },
       {
         name: {
-          en: "Tsipouro homemade without anise 250ml",
+          en: "Tsipouro (bulk) without anise 250ml",
           gr: "Τσίπουρο χύμα χωρίς γλυκάνισο 250ml",
-          de: "Hausgemachtes Tsipouro ohne Anis 250ml",
-          sr: "Ципуро домаћи без аниса 250ml",
-          bg: "Домашно ципуро без анасон 250ml",
-          ro: "Țipouro de casă fără anason 250ml"
+          de: "Lose Tsipouro ohne Anis 250ml",
+          sr: "Ципуро сипана без аниса 250ml",
+          bg: "Разлята ракия без анасон 250ml",
+          ro: "Țipouro vrac fără anason 250ml"
         },
         price: "€7,00"
       },
       {
         name: {
-          en: "Tsipouro homemade with anise, glass 50ml",
-          gr: "Ηδωνικό με γλυκάνισο, ποτήρι 50ml",
-          de: "Hausgemachtes Tsipouro mit Anis, Glas 50ml",
-          sr: "Домаћи Ципуро са анисом, чаша 50ml",
-          bg: "Домашно ципуро с анасон, чаша 50ml",
-          ro: "Țipouro de casă cu anason, pahar 50ml"
+          en: "Tsipouro (bulk) with anise, glass 50ml",
+          gr: "Τσίπουρο χύμα με γλυκάνισο, ποτήρι 50ml",
+          de: "Lose Tsipouro mit Anis, Glas 50ml",
+          sr: "Ципуро сипана са анисом, чаша 50ml",
+          bg: "Разлято ракия с анасон, чаша 50ml",
+          ro: "Țipouro vrac cu anason, pahar 50ml"
         },
         price: "€3,00"
       },
       {
         name: {
-          en: "Tsipouro homemade without anise, glass 50ml",
-          gr: "Αποστολάκη χωρίς γλυκάνισο, ποτήρι 50ml",
-          de: "Hausgemachtes Tsipouro ohne Anis, Glas 50ml",
-          sr: "Домаћи Ципуро без аниса, чаша 50ml",
-          bg: "Домашно ципуро без анасон, чаша 50ml",
-          ro: "Țipouro de casă fără anason, pahar 50ml"
+          en: "Tsipouro (bulk) without anise, glass 50ml",
+          gr: "Τσίπουρο χύμα χωρίς γλυκάνισο, ποτήρι 50ml",
+          de: "Lose Tsipouro ohne Anis, Glas 50ml",
+          sr: "Ципуро сипана без аниса, чаша 50ml",
+          bg: "Разлята ракия без анасон, чаша 50ml",
+          ro: "Țipouro vrac fără anason, pahar 50ml"
         },
         price: "€3,00"
       }
