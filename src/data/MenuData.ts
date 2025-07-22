@@ -796,12 +796,12 @@ export const menuData: MenuCategory[] = [
       },
       {
         name: {
-          en: "Anchovies in white sauce",
+          en: "Steamed anchovies",
           gr: "Γαύρος αχνιστός",
-          de: "Anchovis in Weißsauce",
-          sr: "Анћоси у белом сосу",
-          bg: "Аншоа в бял сос",
-          ro: "Anșoa în sos alb"
+          de: "Gedämpfter Anchovis",
+          sr: "Парени инћун",
+          bg: "Парен сафрид",
+          ro: "Pește aburit"
         },
         price: "€8,50"
       },
@@ -1079,8 +1079,8 @@ export const menuData: MenuCategory[] = [
           en: "Snitzel with mushrooms and white sour cream",
           gr: "Σνίτσελ με μανιτάρια αλά κρεμ",
           de: "Schnitzel mit Champignons und Sauerrahm",
-          sr: "Шницл са печуркама и киселом павлаком",
-          bg: "Шницел с гъби и бяла сметана",
+          sr: "шницла са печуркама и павлаком ",
+          bg: "шницел с гъби и сметана",
           ro: "Șnițel cu ciuperci și smântână albă"
         },
         price: "€10,00",
@@ -1097,7 +1097,7 @@ export const menuData: MenuCategory[] = [
         name: {
           en: "Pork ribs",
           gr: "Πανσέτα",
-          de: "Schweinerippchen",
+          de: "Bauchspeck",
           sr: "Свињске ребрце",
           bg: "Свински ребра",
           ro: "Coaste de porc"
@@ -1114,12 +1114,12 @@ export const menuData: MenuCategory[] = [
       },
       {
         name: {
-          en: "Burger pork",
+          en: "Meatball",
           gr: "Μπιφτέκι",
-          de: "Schweineburger",
-          sr: "Свињски бургер",
-          bg: "Свинески бургер",
-          ro: "Burger de porc"
+          de: "Frikadellen",
+          sr: "Љуљ-бифтек",
+          bg: "Кюфте",
+          ro: "Chiftea"
         },
         price: "€8,00",
         description: {
@@ -1133,12 +1133,12 @@ export const menuData: MenuCategory[] = [
       },
       {
         name: {
-          en: "Stuffed beef burger pork",
+          en: "Stuffed meatball",
           gr: "Μπιφτέκι γεμιστό",
-          de: "Gefüllter Rinderburger",
-          sr: "Пуњени бургер од говедине",
-          bg: "Пълнен бургер с телешко",
-          ro: "Burger umplut de vită"
+          de: "Gefüllte Frikadelle",
+          sr: "пуњени пљескавицу",
+          bg: "Пълнено кюфте",
+          ro: "Chiftea umplută"
         },
         price: "€8,50",
         description: {
@@ -1225,8 +1225,8 @@ export const menuData: MenuCategory[] = [
           en: "Coca - Cola 250ml",
           gr: "Κόκα - Κόλα 250ml",
           de: "Coca-Cola 250ml",
-          sr: "Кока-Кола 250мл",
-          bg: "Кока-Кола 250мл",
+          sr: "Кока-Кола 250ml",
+          bg: "Кока-Кола 250ml",
           ro: "Coca-Cola 250ml"
         },
         price: "€2,50"
@@ -1236,8 +1236,8 @@ export const menuData: MenuCategory[] = [
           en: "Sprite 250ml",
           gr: "Σπράιτ 250ml",
           de: "Sprite 250ml",
-          sr: "Спрајт 250мл",
-          bg: "Спрайт 250мл",
+          sr: "Спрајт 250ml",
+          bg: "Спрайт 250ml",
           ro: "Sprite 250ml"
         },
         price: "€2,50"
@@ -1247,8 +1247,8 @@ export const menuData: MenuCategory[] = [
           en: "Orangeade 250ml",
           gr: "Πορτοκαλάδα 250ml",
           de: "Orangenlimonade 250ml",
-          sr: "Портокал 250мл",
-          bg: "Портокал 250мл",
+          sr: "Портокал 250ml",
+          bg: "Портокал 250ml",
           ro: "Portocaladă 250ml"
         },
         price: "€2,50"
@@ -1258,8 +1258,8 @@ export const menuData: MenuCategory[] = [
           en: "Soda water 250ml",
           gr: "Σόδα 250ml",
           de: "Sodawasser 250ml",
-          sr: "Сода вода 250мл",
-          bg: "Содa 250мл",
+          sr: "Кисела вода 250ml",
+          bg: "Содa 250ml",
           ro: "Apă carbogazoasă 250ml"
         },
         price: "€2,50"
@@ -1279,77 +1279,77 @@ export const menuData: MenuCategory[] = [
   },
 
   {
-    category: {
-      en: "Beers",
-      gr: "Μπύρες",
-      de: "Biere",
-      sr: "Пиво",
-      bg: "Бира",
-      ro: "Bere"
+    "category": {
+      "en": "Beers",
+      "gr": "Μπύρες",
+      "de": "Biere",
+      "sr": "Пиво",
+      "bg": "Бира",
+      "ro": "Bere"
     },
-    subcategory: {
-      en: "Drinks",
-      gr: "Ποτά",
-      de: "Getränke",
-      sr: "Пијачa",
-      bg: "Напитки",
-      ro: "Băuturi"
+    "subcategory": {
+      "en": "Drinks",
+      "gr": "Ποτά",
+      "de": "Getränke",
+      "sr": "Пијачa",
+      "bg": "Напитки",
+      "ro": "Băuturi"
     },
-    items: [
+    "items": [
       {
-        name: {
-          en: "Amstel 500ml",
-          gr: "Άμστελ 500ml",
-          de: "Amstel 500ml",
-          sr: "Амстел 500мл",
-          bg: "Амстел 500мл",
-          ro: "Amstel 500ml"
+        "name": {
+          "en": "Amstel 500ml",
+          "gr": "Άμστελ 500ml",
+          "de": "Amstel 500ml",
+          "sr": "Amstel 500ml",
+          "bg": "Amstel 500ml",
+          "ro": "Amstel 500ml"
         },
-        price: "€4,00"
+        "price": "€4,00"
       },
       {
-        name: {
-          en: "Kaiser 500ml",
-          gr: "Κάιζερ 500ml",
-          de: "Kaiser 500ml",
-          sr: "Кајзер 500мл",
-          bg: "Кајзер 500мл",
-          ro: "Kaiser 500ml"
+        "name": {
+          "en": "Kaiser 500ml",
+          "gr": "Κάιζερ 500ml",
+          "de": "Kaiser 500ml",
+          "sr": "Kaiser 500ml",
+          "bg": "Kaiser 500ml",
+          "ro": "Kaiser 500ml"
         },
-        price: "€4,00"
+        "price": "€4,00"
       },
       {
-        name: {
-          en: "Mythos 500ml",
-          gr: "Μύθος 500ml",
-          de: "Mythos 500ml",
-          sr: "Митос 500мл",
-          bg: "Митос 500мл",
-          ro: "Mythos 500ml"
+        "name": {
+          "en": "Mythos 500ml",
+          "gr": "Μύθος 500ml",
+          "de": "Mythos 500ml",
+          "sr": "Mythos 500ml",
+          "bg": "Mythos 500ml",
+          "ro": "Mythos 500ml"
         },
-        price: "€4,00"
+        "price": "€4,00"
       },
       {
-        name: {
-          en: "Fix 500ml",
-          gr: "Φιξ 500ml",
-          de: "Fix 500ml",
-          sr: "Фикс 500мл",
-          bg: "Фикс 500мл",
-          ro: "Fix 500ml"
+        "name": {
+          "en": "Fix 500ml",
+          "gr": "Φιξ 500ml",
+          "de": "Fix 500ml",
+          "sr": "Fix 500ml",
+          "bg": "Fix 500ml",
+          "ro": "Fix 500ml"
         },
-        price: "€4,00"
+        "price": "€4,00"
       },
       {
-        name: {
-          en: "Alfa 500ml",
-          gr: "Άλφα 500ml",
-          de: "Alfa 500ml",
-          sr: "Алфа 500мл",
-          bg: "Алфа 500мл",
-          ro: "Alfa 500ml"
+        "name": {
+          "en": "Alfa 500ml",
+          "gr": "Άλφα 500ml",
+          "de": "Alfa 500ml",
+          "sr": "Alfa 500ml",
+          "bg": "Alfa 500ml",
+          "ro": "Alfa 500ml"
         },
-        price: "€4,00"
+        "price": "€4,00"
       }
     ]
   },
@@ -1377,8 +1377,8 @@ export const menuData: MenuCategory[] = [
           en: "Malamatina 500ml",
           gr: "Μαλαματίνα 500ml",
           de: "Malamatina 500ml",
-          sr: "Маламатина 500мл",
-          bg: "Маламатина 500мл",
+          sr: "Malamatina 500ml",
+          bg: "Malamatina 500ml",
           ro: "Malamatina 500ml"
         },
         price: "€4,00"
@@ -1388,8 +1388,8 @@ export const menuData: MenuCategory[] = [
           en: "Vasiliki 500ml",
           gr: "Βασιλική 500ml",
           de: "Vasiliki 500ml",
-          sr: "Василики 500мл",
-          bg: "Василики 500мл",
+          sr: "Vasiliki 500ml",
+          bg: "Vasiliki 500ml",
           ro: "Vasiliki 500ml"
         },
         price: "€6,00"
@@ -1399,8 +1399,8 @@ export const menuData: MenuCategory[] = [
           en: "Georgiadi 500ml",
           gr: "Γεωργιάδη 500ml",
           de: "Georgiadi 500ml",
-          sr: "Георгиади 500мл",
-          bg: "Георгиади 500мл",
+          sr: "Georgiadi 500ml",
+          bg: "Georgiadi 500ml",
           ro: "Georgiadi 500ml"
         },
         price: "€4,00"
@@ -1431,8 +1431,8 @@ export const menuData: MenuCategory[] = [
           en: "Demi sweet red wine 500ml",
           gr: "Ημίγλυκο κόκκινο 500ml",
           de: "Halbsüßer Rotwein 500ml",
-          sr: "Полуслатко црвено вино 500мл",
-          bg: "Полусладко червено вино 500мл",
+          sr: "Полуслатко црвено вино 500ml",
+          bg: "Полусладко червено вино 500ml",
           ro: "Vin roșu demi-dulce 500ml"
         },
         price: "€5,00"
@@ -1442,8 +1442,8 @@ export const menuData: MenuCategory[] = [
           en: "Dry red 500ml",
           gr: "Ξηρό κόκκινο 500ml",
           de: "Trockener Rotwein 500ml",
-          sr: "Суво црвено 500мл",
-          bg: "Сухо червено 500мл",
+          sr: "Суво црвено 500ml",
+          bg: "Сухо червено 500ml",
           ro: "Vin roșu sec 500ml"
         },
         price: "€5,00"
@@ -1453,8 +1453,8 @@ export const menuData: MenuCategory[] = [
           en: "White 500ml",
           gr: "Λευκό 500ml",
           de: "Weißwein 500ml",
-          sr: "Бело 500мл",
-          bg: "Бяло 500мл",
+          sr: "Бело 500ml",
+          bg: "Бяло 500ml",
           ro: "Vin alb 500ml"
         },
         price: "€5,00"
@@ -1485,8 +1485,8 @@ export const menuData: MenuCategory[] = [
           en: "Moschofilero 750ml",
           gr: "Μοσχοφίλερο 750ml",
           de: "Moschofilero 750ml",
-          sr: "Мосхофилеро 750мл",
-          bg: "Мосхофилеро 750мл",
+          sr: "Moschofilero 750ml",
+          bg: "Moschofilero 750ml",
           ro: "Moschofilero 750ml"
         },
         price: "€14,00"
@@ -1496,8 +1496,8 @@ export const menuData: MenuCategory[] = [
           en: "Vivlia Chora 750ml",
           gr: "Βιβλία Χώρα 750ml",
           de: "Vivlia Chora 750ml",
-          sr: "Вивлиа Хора 750мл",
-          bg: "Вивлия Хора 750мл",
+          sr: "Vivlia Chora 750ml",
+          bg: "Vivlia Chora 750ml",
           ro: "Vivlia Chora 750ml"
         },
         price: "€25,00"
@@ -1528,8 +1528,8 @@ export const menuData: MenuCategory[] = [
           en: "Varvagiannis 200ml",
           gr: "Βαρβαγιάννης 200ml",
           de: "Varvagiannis 200ml",
-          sr: "Варвагијанис 200мл",
-          bg: "Варвагианис 200мл",
+          sr: "Varvagiannis 200ml",
+          bg: "Varvagiannis 200ml",
           ro: "Varvagiannis 200ml"
         },
         price: "€8,00"
@@ -1539,8 +1539,8 @@ export const menuData: MenuCategory[] = [
           en: "Magia 200ml",
           gr: "Μαγεία 200ml",
           de: "Magia 200ml",
-          sr: "Магија 200мл",
-          bg: "Магия 200мл",
+          sr: "Magia 200ml",
+          bg: "Magia 200ml",
           ro: "Magia 200ml"
         },
         price: "€8,00"
@@ -1550,8 +1550,8 @@ export const menuData: MenuCategory[] = [
           en: "Mitilini MINI 200ml",
           gr: "Μυτιλήνη ΜΙΝΙ 200ml",
           de: "Mitilini MINI 200ml",
-          sr: "Митилини МИНИ 200мл",
-          bg: "Митилини МИНИ 200мл",
+          sr: "Mitilini MINI 200ml",
+          bg: "Mitilini МINI 200ml",
           ro: "Mitilini MINI 200ml"
         },
         price: "€8,00"
@@ -1561,8 +1561,8 @@ export const menuData: MenuCategory[] = [
           en: "Plomari 200ml",
           gr: "Πλωμάρι 200ml",
           de: "Plomari 200ml",
-          sr: "Пломари 200мл",
-          bg: "Пломари 200мл",
+          sr: "Plomari 200ml",
+          bg: "Plomari 200ml",
           ro: "Plomari 200ml"
         },
         price: "€8,00"
@@ -1593,8 +1593,8 @@ export const menuData: MenuCategory[] = [
           en: "Babatzim with anise 200ml",
           gr: "Μπαμπατζίμ με γλυκάνισο 200ml",
           de: "Babatzim mit Anis 200ml",
-          sr: "Бабацим са анисом 200мл",
-          bg: "Бабаджим с анасон 200мл",
+          sr: "Babatzim са анисом 200ml",
+          bg: "Babatzim с анасон 200ml",
           ro: "Babatzim cu anason 200ml"
         },
         price: "€9,00"
@@ -1604,8 +1604,8 @@ export const menuData: MenuCategory[] = [
           en: "Babatzim without anise 200ml",
           gr: "Μπαμπατζίμ χωρίς γλυκάνισο 200ml",
           de: "Babatzim ohne Anis 200ml",
-          sr: "Бабацим без аниса 200мл",
-          bg: "Бабаджим без анасон 200мл",
+          sr: "Babatzim без аниса 200ml",
+          bg: "Babatzim без анасон 200ml",
           ro: "Babatzim fără anason 200ml"
         },
         price: "€9,00"
@@ -1615,8 +1615,8 @@ export const menuData: MenuCategory[] = [
           en: "Apostolaki with anise 200ml",
           gr: "Αποστολάκη με γλυκάνισο 200ml",
           de: "Apostolaki mit Anis 200ml",
-          sr: "Апостолаки са анисом 200мл",
-          bg: "Апостолаки с анасон 200мл",
+          sr: "Apostolaki са анисом 200ml",
+          bg: "Apostolaki с анасон 200ml",
           ro: "Apostolaki cu anason 200ml"
         },
         price: "€9,00"
@@ -1626,8 +1626,8 @@ export const menuData: MenuCategory[] = [
           en: "Apostolaki without anise 200ml",
           gr: "Αποστολάκη χωρίς γλυκάνισο 200ml",
           de: "Apostolaki ohne Anis 200ml",
-          sr: "Апостолаки без аниса 200мл",
-          bg: "Апостолаки без анасон 200мл",
+          sr: "Apostolaki без аниса 200ml",
+          bg: "Apostolaki без анасон 200ml",
           ro: "Apostolaki fără anason 200ml"
         },
         price: "€9,00"
@@ -1637,8 +1637,8 @@ export const menuData: MenuCategory[] = [
           en: "Idoniko with anise 200ml",
           gr: "Ηδωνικό με γλυκάνισο 200ml",
           de: "Idoniko mit Anis 200ml",
-          sr: "Идонико са анисом 200мл",
-          bg: "Идонико с анасон 200мл",
+          sr: "Idoniko са анисом 200ml",
+          bg: "Idoniko с анасон 200ml",
           ro: "Idoniko cu anason 200ml"
         },
         price: "€9,00"
@@ -1648,8 +1648,8 @@ export const menuData: MenuCategory[] = [
           en: "Idoniko without anise 200ml",
           gr: "Ηδωνικό χωρίς γλυκάνισο 200ml",
           de: "Idoniko ohne Anis 200ml",
-          sr: "Идонико без аниса 200мл",
-          bg: "Идонико без анасон 200мл",
+          sr: "Idoniko без аниса 200ml",
+          bg: "Idoniko без анасон 200ml",
           ro: "Idoniko fără anason 200ml"
         },
         price: "€9,00"
@@ -1659,8 +1659,8 @@ export const menuData: MenuCategory[] = [
           en: "Tsipouro homemade with anise 250ml",
           gr: "Τσίπουρο χύμα με γλυκάνισο 250ml",
           de: "Hausgemachtes Tsipouro mit Anis 250ml",
-          sr: "Ципуро домаћи са анисом 250мл",
-          bg: "Домашно ципуро с анасон 250мл",
+          sr: "Ципуро домаћи са анисом 250ml",
+          bg: "Домашно ципуро с анасон 250ml",
           ro: "Țipouro de casă cu anason 250ml"
         },
         price: "€7,00"
@@ -1670,8 +1670,8 @@ export const menuData: MenuCategory[] = [
           en: "Tsipouro homemade without anise 250ml",
           gr: "Τσίπουρο χύμα χωρίς γλυκάνισο 250ml",
           de: "Hausgemachtes Tsipouro ohne Anis 250ml",
-          sr: "Ципуро домаћи без аниса 250мл",
-          bg: "Домашно ципуро без анасон 250мл",
+          sr: "Ципуро домаћи без аниса 250ml",
+          bg: "Домашно ципуро без анасон 250ml",
           ro: "Țipouro de casă fără anason 250ml"
         },
         price: "€7,00"
@@ -1681,8 +1681,8 @@ export const menuData: MenuCategory[] = [
           en: "Tsipouro homemade with anise, glass 50ml",
           gr: "Ηδωνικό με γλυκάνισο, ποτήρι 50ml",
           de: "Hausgemachtes Tsipouro mit Anis, Glas 50ml",
-          sr: "Домаћи Ципуро са анисом, чаша 50мл",
-          bg: "Домашно ципуро с анасон, чаша 50мл",
+          sr: "Домаћи Ципуро са анисом, чаша 50ml",
+          bg: "Домашно ципуро с анасон, чаша 50ml",
           ro: "Țipouro de casă cu anason, pahar 50ml"
         },
         price: "€3,00"
@@ -1692,8 +1692,8 @@ export const menuData: MenuCategory[] = [
           en: "Tsipouro homemade without anise, glass 50ml",
           gr: "Αποστολάκη χωρίς γλυκάνισο, ποτήρι 50ml",
           de: "Hausgemachtes Tsipouro ohne Anis, Glas 50ml",
-          sr: "Домаћи Ципуро без аниса, чаша 50мл",
-          bg: "Домашно ципуро без анасон, чаша 50мл",
+          sr: "Домаћи Ципуро без аниса, чаша 50ml",
+          bg: "Домашно ципуро без анасон, чаша 50ml",
           ro: "Țipouro de casă fără anason, pahar 50ml"
         },
         price: "€3,00"
