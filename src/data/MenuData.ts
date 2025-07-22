@@ -1269,8 +1269,8 @@ export const menuData: MenuCategory[] = [
           en: "Table water 1L",
           gr: "Νερό εμφιαλωμένο 1L",
           de: "Tafelwasser 1L",
-          sr: "Вода 1л",
-          bg: "Вода 1л",
+          sr: "Вода 1L",
+          bg: "Вода 1L",
           ro: "Apă plată 1L"
         },
         price: "€1,50"
