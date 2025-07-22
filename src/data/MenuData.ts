@@ -699,7 +699,7 @@ export const menuData: MenuCategory[] = [
         name: {
           en: "Grilled squids*",
           gr: "Καλαμαράκια ψητά*",
-          de: "Gegrillte Tintenfische*",
+          de: "Gegrillte Calamari*",
           sr: "Печени лигње*",
           bg: "Печени калмари*",
           ro: "Calamari la grătar*"
@@ -710,7 +710,7 @@ export const menuData: MenuCategory[] = [
         name: {
           en: "Fried squids*",
           gr: "Καλαμαράκια τηγανιτά*",
-          de: "Gebratene Tintenfische*",
+          de: "Gebratene Calamari*",
           sr: "Пржене лигње*",
           bg: "Пържени калмари*",
           ro: "Calamari prăjiți*"
@@ -721,7 +721,7 @@ export const menuData: MenuCategory[] = [
         name: {
           en: "Stuffed squids with cheese*",
           gr: "Καλαμαράκια γεμιστά με κασέρι*",
-          de: "Gefüllte Tintenfische mit Käse*",
+          de: "Gefüllte Calamari mit Käse*",
           sr: "Пуњене лигње са сиром*",
           bg: "Пълнени калмари с кашкавал*",
           ro: "Calamari umpluți cu brânză*"
@@ -895,7 +895,7 @@ export const menuData: MenuCategory[] = [
         description: {
           en: "(squids, mussels, anchovies, shrimps)*",
           gr: "(καλαμάρια, μύδια, γαύρος, γαρίδα)*",
-          de: "(Tintenfische, Muscheln, Anchovis, Garnelen)*",
+          de: "(Calamari, Muscheln, Anchovis, Garnelen)*",
           sr: "(лигње, мушље, анћоси, шкампи)*",
           bg: "(калмари, миди, аншоа, скариди)*",
           ro: "(calamari, midii, anșoa, creveți)*"
