@@ -1597,7 +1597,7 @@ export const menuData: MenuCategory[] = [
           bg: "Babatzim с анасон 200ml",
           ro: "Babatzim cu anason 200ml"
         },
-        price: "€9,00"
+        price: "€10,00"
       },
       {
         name: {
