@@ -66,7 +66,7 @@ export const menuData: MenuCategory[] = [
         "bg": "Салата с домати и краставици",
         "ro": "Salată de roșii și castraveți"
       },
-      price: "€5,00"
+      price: "€6,00"
     },
     {
       name: {
@@ -77,7 +77,7 @@ export const menuData: MenuCategory[] = [
         "bg": "Гръцка салата",
         "ro": "Salată grecească"
       },
-      price: "€7,50"
+      price: "€8,00"
     },
     {
       name: {
@@ -88,7 +88,7 @@ export const menuData: MenuCategory[] = [
         "bg": "Маруля",
         "ro": "Salată verde"
       },
-      price: "€4,00"
+      price: "€5,00"
     },
     {
       name: {
@@ -154,7 +154,7 @@ export const menuData: MenuCategory[] = [
         "bg": "Ах! Салата",
         "ro": "Salată Ah!"
       },
-      price: "€7,00",
+      price: "€8,00",
       description: {
         "en": "(variety of salads)",
         "gr": "(διάφορες σαλάτες)",
@@ -173,7 +173,7 @@ export const menuData: MenuCategory[] = [
         "bg": "Рукола",
         "ro": "Rucola"
       },
-      price: "€4,00"
+      price: "€5,00"
     },
     {
       name: {
@@ -184,7 +184,7 @@ export const menuData: MenuCategory[] = [
         "bg": "Салата с риба тон",
         "ro": "Salată cu ton"
       },
-      price: "€7,50"
+      price: "€8,00"
     },
     {
       name: {
@@ -214,7 +214,7 @@ export const menuData: MenuCategory[] = [
         "bg": "Салата с скариди",
         "ro": "Salată de creveți"
       },
-      price: "€7,50"
+      price: "€8,00"
     },
     {
       name: {
@@ -275,7 +275,7 @@ export const menuData: MenuCategory[] = [
           bg: "Гъби със заквасена сметана",
           ro: "Ciuperci cu smântână"
         },
-        price: "€4,50"
+        price: "€5,00"
       },
       {
         name: {
@@ -286,7 +286,7 @@ export const menuData: MenuCategory[] = [
           bg: "Гъби с лук",
           ro: "Ciuperci cu ceapă"
         },
-        price: "€4,50"
+        price: "€5,00"
       },
       {
         name: {
@@ -297,7 +297,7 @@ export const menuData: MenuCategory[] = [
           bg: 'Печени гъби "Плевротус"',
           ro: 'Ciuperci "Pleurotus" la grătar'
         },
-        price: "€7,00"
+        price: "€7,50"
       },
       {
         name: {
@@ -308,7 +308,7 @@ export const menuData: MenuCategory[] = [
           bg: "Картофи в бял крем сос",
           ro: "Cartofi în sos alb de smântână"
         },
-        price: "€4,50"
+        price: "€5,00"
       },
       {
         name: {
@@ -319,7 +319,7 @@ export const menuData: MenuCategory[] = [
           bg: "Пържени картофи",
           ro: "Cartofi prăjiți"
         },
-        price: "€3,50"
+        price: "€4,00"
       },
       {
         name: {
@@ -341,7 +341,7 @@ export const menuData: MenuCategory[] = [
           bg: "Пържени патладжани",
           ro: "Vinete prăjite"
         },
-        price: "€4,50"
+        price: "€5,00"
       },
       {
         name: {
@@ -382,7 +382,7 @@ export const menuData: MenuCategory[] = [
           bg: "Ориз с морски дарове*",
           ro: "Orez cu fructe de mare*"
         },
-        price: "€8,00"
+        price: "€9,00"
       },
       {
         name: {
@@ -393,7 +393,7 @@ export const menuData: MenuCategory[] = [
           bg: "Печени зеленчуци",
           ro: "Legume la grătar"
         },
-        price: "€7,00"
+        price: "€8,00"
       }
     ]
   },
@@ -522,7 +522,7 @@ export const menuData: MenuCategory[] = [
           bg: "Аншоа",
           ro: "Anșoa"
         },
-        price: "€5,00"
+        price: "€6,00"
       },
       {
         name: {
@@ -533,7 +533,7 @@ export const menuData: MenuCategory[] = [
           bg: "Сушена солена скумрия салата",
           ro: "Salată de macrou uscat sărat"
         },
-        price: "€5,00"
+        price: "€6,00"
       },
       {
         name: {
@@ -555,7 +555,7 @@ export const menuData: MenuCategory[] = [
           bg: "Мариновани аншоа",
           ro: "Anșoa în saramură"
         },
-        price: "€5,00"
+        price: "€6,00"
       }
     ]
   },
@@ -598,7 +598,7 @@ export const menuData: MenuCategory[] = [
           bg: "Печена люта фета",
           ro: "Feta la grătar iute"
         },
-        price: "€4,50"
+        price: "€5,00"
       },
       {
         name: {
@@ -620,7 +620,7 @@ export const menuData: MenuCategory[] = [
           bg: "Крокети със сирене*",
           ro: "Crochete cu brânză*"
         },
-        price: "€4,00"
+        price: "€4,50"
       },
       {
         name: {
@@ -661,7 +661,7 @@ export const menuData: MenuCategory[] = [
           bg: "Печен халуми с домат",
           ro: "Halloumi la grătar cu roșii"
         },
-        price: "€7,00"
+        price: "€8,00"
       },
       {
         name: {
@@ -672,7 +672,7 @@ export const menuData: MenuCategory[] = [
           bg: "Фета в тесто с мед*",
           ro: "Feta în foaie cu miere*"
         },
-        price: "€7,00"
+        price: "€7,50"
       }
     ]
   },
@@ -737,7 +737,7 @@ export const menuData: MenuCategory[] = [
           bg: "Пържени миди",
           ro: "Midii prăjite"
         },
-        price: "€8,00"
+        price: "€9,00"
       },
       {
         name: {
@@ -748,7 +748,7 @@ export const menuData: MenuCategory[] = [
           bg: "Миди с лимонов сос",
           ro: "Midii cu sos de lămâie"
         },
-        price: "€8,50"
+        price: "€9,50"
       },
       {
         name: {
@@ -781,7 +781,7 @@ export const menuData: MenuCategory[] = [
           bg: "Печени сардини",
           ro: "Sardine la grătar"
         },
-        price: "€8,00"
+        price: "€9,00"
       },
       {
         name: {
@@ -847,7 +847,7 @@ export const menuData: MenuCategory[] = [
           bg: "Скариди в доматен сос 300г*",
           ro: "Creveți cu sos de roșii 300g*"
         },
-        price: "€13,00"
+        price: "€15,00"
       },
       {
         name: {
@@ -858,7 +858,7 @@ export const menuData: MenuCategory[] = [
           bg: "Пържени скариди 300г*",
           ro: "Creveți prăjiți 300g*"
         },
-        price: "€13,00"
+        price: "€14,00"
       },
       {
         name: {
@@ -869,7 +869,7 @@ export const menuData: MenuCategory[] = [
           bg: "Скариди със спагети*",
           ro: "Creveți cu spaghete*"
         },
-        price: "€14,00"
+        price: "€15,00"
       },
       {
         name: {
@@ -880,7 +880,7 @@ export const menuData: MenuCategory[] = [
           bg: "Печени скариди 300г*",
           ro: "Creveți la grătar 300g*"
         },
-        price: "€13,00"
+        price: "€14,00"
       },
       {
         name: {
@@ -891,7 +891,7 @@ export const menuData: MenuCategory[] = [
           bg: "Микс морски дарове*",
           ro: "Mix fructe de mare*"
         },
-        price: "€22,00",
+        price: "€24,00",
         description: {
           en: "(squids, mussels, anchovies, shrimps)*",
           gr: "(καλαμάρια, μύδια, γαύρος, γαρίδα)*",
@@ -1007,7 +1007,7 @@ export const menuData: MenuCategory[] = [
           bg: "Свински шишчета 3 броя",
           ro: "Frigarui porc 3 bucăți"
         },
-        price: "€8,00",
+        price: "€9,00",
         description: {
           en: "with french fries & salad",
           gr: "με πατάτες τηγανητές & σαλάτα",
@@ -1026,7 +1026,7 @@ export const menuData: MenuCategory[] = [
           bg: "Свинска пържола",
           ro: "Cotlet de porc"
         },
-        price: "€8,00",
+        price: "€9,00",
         description: {
           en: "with french fries & salad",
           gr: "με πατάτες τηγανητές & σαλάτα",
@@ -1045,7 +1045,7 @@ export const menuData: MenuCategory[] = [
           bg: "Свински шницел",
           ro: "Șnițel de porc"
         },
-        price: "€8,00",
+        price: "€9,00",
         description: {
           en: "with french fries & salad",
           gr: "με πατάτες τηγανητές & σαλάτα",
@@ -1102,7 +1102,7 @@ export const menuData: MenuCategory[] = [
           bg: "Свински ребра",
           ro: "Coaste de porc"
         },
-        price: "€8,00",
+        price: "€9,00",
         description: {
           en: "with french fries & salad",
           gr: "με πατάτες τηγανητές & σαλάτα",
@@ -1121,7 +1121,7 @@ export const menuData: MenuCategory[] = [
           bg: "Кюфте",
           ro: "Chiftea"
         },
-        price: "€8,00",
+        price: "€9,00",
         description: {
           en: "with french fries & salad",
           gr: "με πατάτες τηγανητές & σαλάτα",
@@ -1140,7 +1140,7 @@ export const menuData: MenuCategory[] = [
           bg: "Пълнено кюфте",
           ro: "Chiftea umplută"
         },
-        price: "€8,50",
+        price: "€9,50",
         description: {
           en: "with french fries & salad",
           gr: "με πατάτες τηγανητές & σαλάτα",
@@ -1197,7 +1197,7 @@ export const menuData: MenuCategory[] = [
           bg: "Смесено месо за 3 души",
           ro: "Grătar mixt pentru 3 persoane"
         },
-        price: "€24,00"
+        price: "€27,00"
       }
     ]
   },
@@ -1532,7 +1532,7 @@ export const menuData: MenuCategory[] = [
           bg: "Varvagiannis 200ml",
           ro: "Varvagiannis 200ml"
         },
-        price: "€8,00"
+        price: "€8,50"
       },
       {
         name: {
@@ -1543,7 +1543,7 @@ export const menuData: MenuCategory[] = [
           bg: "Magia 200ml",
           ro: "Magia 200ml"
         },
-        price: "€8,00"
+        price: "€8,50"
       },
       {
         name: {
@@ -1554,7 +1554,7 @@ export const menuData: MenuCategory[] = [
           bg: "Mitilini МINI 200ml",
           ro: "Mitilini MINI 200ml"
         },
-        price: "€8,00"
+        price: "€8,50"
       },
       {
         name: {
@@ -1565,7 +1565,7 @@ export const menuData: MenuCategory[] = [
           bg: "Plomari 200ml",
           ro: "Plomari 200ml"
         },
-        price: "€8,00"
+        price: "€8,50"
       }
     ]
   },
@@ -1608,7 +1608,7 @@ export const menuData: MenuCategory[] = [
           bg: "Babatzim без анасон 200ml",
           ro: "Babatzim fără anason 200ml"
         },
-        price: "€9,00"
+        price: "€10,00"
       },
       {
         name: {
@@ -1619,7 +1619,7 @@ export const menuData: MenuCategory[] = [
           bg: "Apostolaki с анасон 200ml",
           ro: "Apostolaki cu anason 200ml"
         },
-        price: "€9,00"
+        price: "€10,00"
       },
       {
         name: {
@@ -1630,7 +1630,7 @@ export const menuData: MenuCategory[] = [
           bg: "Apostolaki без анасон 200ml",
           ro: "Apostolaki fără anason 200ml"
         },
-        price: "€9,00"
+        price: "€10,00"
       },
       {
         name: {
@@ -1641,7 +1641,7 @@ export const menuData: MenuCategory[] = [
           bg: "Idoniko с анасон 200ml",
           ro: "Idoniko cu anason 200ml"
         },
-        price: "€9,00"
+        price: "€10,00"
       },
       {
         name: {
@@ -1652,7 +1652,7 @@ export const menuData: MenuCategory[] = [
           bg: "Idoniko без анасон 200ml",
           ro: "Idoniko fără anason 200ml"
         },
-        price: "€9,00"
+        price: "€10,00"
       },
       {
         name: {
