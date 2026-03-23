@@ -24,6 +24,11 @@ const MenuSection = ({ title, items, language }: MenuSectionProps) => (
                 {item.description[language]}
               </p>
             )}
+            {language !== "gr" && (
+              <p className="text-xs text-gray-500 font-noto-serif">
+                {item.name["gr"]}
+              </p>
+            )}
           </div>
           <span className="text-base font-medium font-noto-serif">
             {item.price}
