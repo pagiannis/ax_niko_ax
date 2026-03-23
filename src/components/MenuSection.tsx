@@ -7,7 +7,7 @@ type MenuSectionProps = {
 };
 
 const MenuSection = ({ title, items, language }: MenuSectionProps) => (
-  <div className="mt-15 mb-10">
+  <div className="px-4 mt-12 mb-10">
     <h3 className="text-2xl font-extrabold font-serif text-sky-950 mb-3">
       {title}
     </h3>
