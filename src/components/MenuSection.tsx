@@ -8,24 +8,26 @@ type MenuSectionProps = {
 
 const MenuSection = ({ title, items, language }: MenuSectionProps) => (
   <div className="px-4 mt-12 mb-10">
-    <h3 className="text-2xl font-extrabold font-serif text-sky-950 mb-3">
-      {title}
-    </h3>
+    <h3 className="text-2xl font-bold font-serif text-sky-950 mb-6">{title}</h3>
     <ul className="space-y-3">
       {items.map((item, idx) => (
         <li
           key={idx}
-          className="flex justify-between items-start border-b border-gray-400 pb-1 last:border-0"
+          className="flex justify-between items-start pb-2 last:border-0"
         >
           <div>
-            <p className="text-base font-sans">{item.name[language]}</p>
+            <p className="text-base font-medium font-noto-serif">
+              {item.name[language]}
+            </p>
             {item.description && (
-              <p className="text-base text-gray-600">
+              <p className="text-sm text-gray-600 font-noto-serif">
                 {item.description[language]}
               </p>
             )}
           </div>
-          <span className="text-sky-950 font-bold">{item.price}</span>
+          <span className="text-base font-medium font-noto-serif">
+            {item.price}
+          </span>
         </li>
       ))}
     </ul>
