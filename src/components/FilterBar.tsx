@@ -6,14 +6,7 @@ type FilterBarProps = {
 
 const FilterBar = ({ selected, onSelect, language }: FilterBarProps) => {
   const categories = [
-    {
-      en: "All",
-      gr: "Όλα",
-      de: "Alle",
-      ro: "Toate",
-      bg: "Всички",
-      sr: "Све",
-    },
+    { en: "All", gr: "Όλα", de: "Alle", ro: "Toate", bg: "Всички", sr: "Све" },
     {
       en: "Salads",
       gr: "Σαλάτες",
@@ -57,21 +50,42 @@ const FilterBar = ({ selected, onSelect, language }: FilterBarProps) => {
   ];
 
   return (
-    <div className="flex justify-center flex-wrap gap-1 min-[400px]:gap-2 my-4 font-sans text-sm md:text-base">
-      {categories.map((cat) => (
-        <button
-          key={cat.en}
-          className={`px-2 min-[360px]:px-4 py-2 rounded-3xl border cursor-pointer ${
-            selected === cat.en
-              ? "bg-sky-950 text-white"
-              : "bg-white text-sky-950 border-sky-950"
-          }`}
-          onClick={() => onSelect(cat.en)}
-        >
-          {cat[language]}
-        </button>
-      ))}
-    </div>
+    <nav className="w-full my-6 overflow-hidden">
+      <div className="flex overflow-x-auto no-scrollbar snap-x scroll-smooth">
+        {/* 
+          - On mobile: 'w-max' ensures it's as wide as the content.
+          - On desktop: 'md:w-full md:justify-center' centers it perfectly.
+        */}
+        <div className="flex items-center w-max md:w-full md:justify-center gap-2 md:gap-4">
+          {/* THE STARTING SPACER (Mobile only) */}
+          <div className="flex-shrink-0 w-4 md:hidden" aria-hidden="true" />
+
+          {categories.map((cat) => {
+            const isActive = selected === cat.en;
+            return (
+              <button
+                key={cat.en}
+                onClick={() => onSelect(cat.en)}
+                className={`
+                  flex-shrink-0 px-5 py-2 rounded-full border transition-all duration-300 text-sm font-medium whitespace-nowrap
+                  ${
+                    isActive
+                      ? "bg-sky-950 text-white border-sky-950 shadow-md scale-105"
+                      : "bg-white/90 backdrop-blur-sm text-sky-950 border-sky-950 hover:border-sky-950"
+                  }
+                  active:scale-95
+                `}
+              >
+                {cat[language]}
+              </button>
+            );
+          })}
+
+          {/* Ensures the last button doesn't hit the right edge. */}
+          <div className="flex-shrink-0 w-1 md:hidden" aria-hidden="true" />
+        </div>
+      </div>
+    </nav>
   );
 };
 

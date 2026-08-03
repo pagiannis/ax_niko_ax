@@ -1,6 +1,11 @@
 @import "tailwindcss";
 @import "flag-icons/css/flag-icons.min.css";
 
+@layer utilities {
+  .no-scrollbar::-webkit-scrollbar { display: none; }
+  .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+}
+
 .font-italianno {
   font-family: 'Italianno', cursive;
 }
